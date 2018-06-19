@@ -1,2 +1,2 @@
 # TareaTopIA
-Tareas a presentar para Tópicos de Inteligencia Artificial
+*Tareas a presentar para Tópicos de Inteligencia Artificial*
