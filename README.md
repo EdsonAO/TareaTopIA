@@ -30,11 +30,11 @@ Para instalar el **BWapi** se siguió el tutorial de [GitHub BWapi](https://gith
    Como se instaló Visual Studio 2013, se tiene que instalar *BWapi* en la versión 4.1.2 y se puede descargar de los [Releases](https://github.com/bwapi/bwapi/releases), al instalar tuve problemas porque no reconocía la carpeta del *Starcraft*, esto se soluciona instalando el *BWapi* a la misma altura del *Starcraft*. 
 - **TEST**
 Una vez instalado el *BWapi* debería haber creado una carpeta **bwapi-data** dentro del directorio de *Starcraft*.
-Debemos ir a la carpeta donde instalamos el *BWapi* y compilar en modo Release con *Visual Studio* el archivo **ExampleProjects.sln**, el cual nos generará una carpeta *Release* dentro de *BWapi* en la cual se encuentra un **DLL** que se llama *ExampleAIModule.dll*.
-*ExampleAIModule.dll* debemos copiarlo dentro de la carpeta del *Starcraft* dentro de *bwapi-data/AI*, la carpeta **AI** se debe crear manualmente.
-Después dentro de la carpeta *BWAPI/chaoslauncher* lanzaremos como administrador *Chaoslauncher.exe*, debemos activar la casilla *BWAPI Injector x.x.x [RELEASE]* y clickear start.
-Dentro del juego nos vamos a *Single Player*, *Expansion*, seleccionamos un usuario o creamos un nuevo y le damos Ok.
-Luego clickeamos *Play Custom*, seleccionamos un mapa e iniciamos el juego.
-Ya en la partida se muestra un mensaje de *Hello world!* y los bots jugando solos.
+    - Debemos ir a la carpeta donde instalamos el *BWapi* y compilar en modo Release con *Visual Studio* el archivo **ExampleProjects.sln**, el cual nos generará una carpeta *Release* dentro de *BWapi* en la cual se encuentra un **DLL** que se llama *ExampleAIModule.dll*.
+    - *ExampleAIModule.dll* debemos copiarlo dentro de la carpeta del *Starcraft* dentro de *bwapi-data/AI*, la carpeta **AI** se debe crear manualmente.
+    - Después dentro de la carpeta *BWAPI/chaoslauncher* lanzaremos como administrador *Chaoslauncher.exe*, debemos activar la casilla *BWAPI Injector x.x.x [RELEASE]* y clickear start.
+    - Dentro del juego nos vamos a *Single Player*, *Expansion*, seleccionamos un usuario o creamos un nuevo y le damos Ok.
+    - Luego clickeamos *Play Custom*, seleccionamos un mapa e iniciamos el juego.
+    - Ya en la partida se muestra un mensaje de *Hello world!* y los bots jugando solos.
 
   
